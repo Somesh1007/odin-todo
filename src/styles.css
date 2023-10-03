@@ -1,0 +1,13 @@
+:root {
+    --full-height: 100vh;
+    --full-width: 100vw;
+    --header-height: calc(var(--full-height) / 10);
+    --tabs-header-height: 70px;
+    --content-height: calc(var(--full-height) - var(--header-height) - var(--tabs-header-height));
+    --shadow-bottom: 3px 1px 20px 8px rgba(0, 0, 0, 0.1)
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
